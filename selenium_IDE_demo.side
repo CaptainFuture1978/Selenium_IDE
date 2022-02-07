@@ -1,85 +1,314 @@
 {
-  "id": "8094b1fb-4347-47b6-a337-099f3843a2c6",
+  "id": "c15a670f-840e-4cd3-bc67-7b0dc77be55e",
   "version": "2.0",
-  "name": "selenium_IDE_demo",
-  "url": "https://qentinelqi.github.io",
+  "name": "selenium-IDE-CRT",
+  "url": "https://www.copado.com",
   "tests": [{
-    "id": "1379d831-2e4f-43b7-b70a-35ec69212d7c",
-    "name": "Untitled",
-    "commands": []
-  }, {
-    "id": "5083513b-ebbf-4274-9120-63fc6fb51fac",
-    "name": "Add_to_shopping_cart",
+    "id": "8805ee26-3b31-4a73-874b-7987aec2dd1a",
+    "name": "test 1",
     "commands": [{
-      "id": "8860fb82-dc6e-49bd-b5fa-179e763a2d08",
+      "id": "57c5c682-f15d-4a77-bfe8-fbc2c998989b",
       "comment": "",
       "command": "open",
-      "target": "/shop/",
+      "target": "/",
       "targets": [],
       "value": ""
     }, {
-      "id": "7fbbbd75-4475-4073-9519-49ae96c023c3",
+      "id": "d765eaec-9ea8-45cc-ad09-02540feaa38b",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1435x1023",
+      "target": "905x874",
       "targets": [],
       "value": ""
     }, {
-      "id": "237f4a7c-b775-4c1f-abd9-b9bfd9136f13",
+      "id": "381a4638-7432-4c77-8d04-2e7207caef99",
       "comment": "",
       "command": "click",
-      "target": "linkText=Bumble the Elephant",
+      "target": "linkText=CALCULATE YOUR COMPANY'S ROI",
       "targets": [
-        ["linkText=Bumble the Elephant", "linkText"],
-        ["css=li:nth-child(2) > .product-details a", "css:finder"],
-        ["xpath=//a[contains(text(),'Bumble the Elephant')]", "xpath:link"],
-        ["xpath=//div[@id='products']/section/div/ul/li[2]/div[2]/h4/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '/shop/products/elephant/')])[3]", "xpath:href"],
-        ["xpath=//li[2]/div[2]/h4/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Bumble the Elephant')]", "xpath:innerText"]
+        ["linkText=CALCULATE YOUR COMPANY'S ROI", "linkText"],
+        ["css=.et_pb_button_0", "css:finder"],
+        ["xpath=//article[@id='post-25287']/div/div/div/div[4]/div[4]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.copado.com/why-copado/devops-roi/value-calculator/')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "a9bbb832-d767-42a4-a2b0-1583361386b9",
+      "id": "9626076b-078a-44d2-9699-e5a53b4e5acb",
       "comment": "",
-      "command": "click",
-      "target": "css=.snipcart-add-item",
+      "command": "selectFrame",
+      "target": "index=0",
       "targets": [
-        ["css=.snipcart-add-item", "css:finder"],
-        ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
-        ["xpath=//button", "xpath:position"],
-        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+        ["index=0"]
       ],
       "value": ""
     }, {
-      "id": "4227bca4-5571-4e7a-8469-38981425a9af",
+      "id": "f33fd084-186a-4219-8b77-918719246291",
       "comment": "",
       "command": "runScript",
-      "target": "window.scrollTo(0,276)",
+      "target": "window.scrollTo(0,0)",
       "targets": [],
       "value": ""
     }, {
-      "id": "7531f12d-ec39-4de9-a32b-fc5f45193981",
+      "id": "fedb8e20-6b28-4093-ab9f-ceb1d5776bbc",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//input[@type='range']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "193.23333740234375,-6.100006103515625"
+    }, {
+      "id": "28020a91-f370-4cd1-ae50-95dccb9aff3a",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//input[@type='range']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "193.23333740234375,-6.100006103515625"
+    }, {
+      "id": "6ae36872-bb6b-4205-9136-5b7f2d7b5ab4",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//input[@type='range']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "193.23333740234375,-6.100006103515625"
+    }, {
+      "id": "9efdbefb-f7e9-4374-9ad6-81398619b4cb",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//input[@type='range']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "111600"
+    }, {
+      "id": "c9e58e14-49ab-4358-9340-ec84887a9973",
       "comment": "",
       "command": "click",
-      "target": "css=.snipcart-modal__close-title",
+      "target": "css=.ng-dirty",
       "targets": [
-        ["css=.snipcart-modal__close-title", "css:finder"],
-        ["xpath=//div[@id='snipcart']/div/div/header/button/span", "xpath:idRelative"],
-        ["xpath=//span", "xpath:position"],
-        ["xpath=//span[contains(.,'Continue shopping')]", "xpath:innerText"]
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//input[@type='range']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7897d8cb-d0be-47fc-ad07-0615c45cf300",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.row:nth-child(3) .row .ng-untouched",
+      "targets": [
+        ["css=.row:nth-child(3) .row .ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='range'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "88.23333740234375,2.899993896484375"
+    }, {
+      "id": "5a01eec7-e420-4391-9ea8-67ca7a36ec1a",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.row:nth-child(3) .row .ng-untouched",
+      "targets": [
+        ["css=.row:nth-child(3) .row .ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='range'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "88.23333740234375,2.899993896484375"
+    }, {
+      "id": "1809d2f9-1c1a-4492-8cad-e6a775254360",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.row:nth-child(3) .row .ng-untouched",
+      "targets": [
+        ["css=.row:nth-child(3) .row .ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='range'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "88.23333740234375,2.899993896484375"
+    }, {
+      "id": "b052a690-c24e-4088-8c27-34943e7bbc9c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.row:nth-child(3) .row .ng-untouched",
+      "targets": [
+        ["css=.row:nth-child(3) .row .ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='range'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "95"
+    }, {
+      "id": "73f5c9e8-2d87-4b5f-8fab-e117b0af7edc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3) .row .ng-untouched",
+      "targets": [
+        ["css=.row:nth-child(3) .row .ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='range'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e291a08b-780e-43e2-ae16-0f3a1586a888",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.row:nth-child(4) .row .ng-untouched",
+      "targets": [
+        ["css=.row:nth-child(4) .row .ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='range'])[3]", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "359.23333740234375,3.9000244140625"
+    }, {
+      "id": "6292a4ed-10b9-478e-866c-bdf29e592bbf",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.row:nth-child(4) .row .ng-untouched",
+      "targets": [
+        ["css=.row:nth-child(4) .row .ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='range'])[3]", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "359.23333740234375,3.9000244140625"
+    }, {
+      "id": "ae271d7a-d5be-43e1-92e4-ab41ff169d2f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.row:nth-child(4) .row .ng-untouched",
+      "targets": [
+        ["css=.row:nth-child(4) .row .ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='range'])[3]", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "359.23333740234375,3.9000244140625"
+    }, {
+      "id": "c1e9e08f-be00-4723-a110-2e839618db95",
+      "comment": "",
+      "command": "type",
+      "target": "css=.row:nth-child(4) .row .ng-untouched",
+      "targets": [
+        ["css=.row:nth-child(4) .row .ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='range'])[3]", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "8520"
+    }, {
+      "id": "47064889-3f6c-4924-a5e2-2f7f4f34e5e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(4) .row .ng-untouched",
+      "targets": [
+        ["css=.row:nth-child(4) .row .ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='range'])[3]", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "289be627-61f2-4d48-8fd8-01c2cdf85b58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_customizable_square",
+      "targets": [
+        ["css=.btn_customizable_square", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calculate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ca73989-7220-4e6e-ac35-69c015e01156",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59c59210-657d-4d3a-98f5-427e25ecd7c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chartcontainer > .row",
+      "targets": [
+        ["css=.chartcontainer > .row", "css:finder"],
+        ["xpath=//app-doughnut5-chart/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6851b6a0-e137-41b0-bfbc-fb672d53d13a",
+    "name": "test2",
+    "commands": [{
+      "id": "7fdec985-3442-4f80-8a93-5c561f4a535b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a308733-ffc3-4cfd-bec3-79b2d626c92f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1017x925",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96efba20-a5da-4909-b616-e97b71dbd236",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobile_menu_bar_toggle",
+      "targets": [
+        ["css=.mobile_menu_bar_toggle", "css:finder"],
+        ["xpath=//div[@id='et_mobile_nav_menu']/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb62f623-f67e-4996-a429-922fa18a6c32",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Why Copado?",
+      "targets": [
+        ["linkText=Why Copado?", "linkText"],
+        ["css=#mobile_menu > .sub-first > a:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Why Copado?')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='mobile_menu']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[15]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf36cde2-f0e4-4628-9f4e-1fe040e6e363",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LEARN MORE",
+      "targets": [
+        ["linkText=LEARN MORE", "linkText"],
+        ["css=.et_pb_button_wrapper:nth-child(2) > .et_pb_button", "css:finder"],
+        ["xpath=(//a[contains(text(),'LEARN MORE')])[2]", "xpath:link"],
+        ["xpath=//article[@id='post-25287']/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.copado.com/why-copado/copado-devops-raises-140m-in-series-c-financing/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/a", "xpath:position"]
       ],
       "value": ""
     }]
   }],
   "suites": [{
-    "id": "b7095ca0-77aa-4ebc-898c-fa638634c3c1",
+    "id": "8187bd27-dd51-4b0c-b4ad-ff180dcdf470",
     "name": "Default Suite",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["1379d831-2e4f-43b7-b70a-35ec69212d7c"]
+    "tests": ["8805ee26-3b31-4a73-874b-7987aec2dd1a"]
   }],
-  "urls": ["https://qentinelqi.github.io/"],
+  "urls": ["https://www.copado.com/"],
   "plugins": []
 }
